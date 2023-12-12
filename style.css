@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3a3a;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('blurry-gradient-haikei.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    margin-top: 20%;
+    align-self: center;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    margin: 20px 0;
+    /* margin-top: 20%; */
+}
+
+textarea {
+    border: 2px solid #7ad5ff;
+    margin: 20px 0;
+    border-radius: 16px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 30%;
+    align-self: center;
+    border-radius: 16px;
+    border: 2px solid #7ad5ff;
+    font-weight: 700;
+}
+
+p {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    .container {
+        width: 90%;
+    }
+}
